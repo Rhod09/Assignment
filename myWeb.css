@@ -1,0 +1,88 @@
+
+body{
+		background-image:url('images/edit.gif');
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-attachment:fixed;
+		-webkit-background-size:100%;
+		-moz-background-size:100%;
+
+}
+
+#maincontainer{
+	width:1020px;
+	margin:auto;
+}
+
+nav#top-menu {
+text-align:center;
+    width: 100%;
+    height: 33px;
+   
+    margin:0px 10px 10px 10px;
+    padding: 0;
+}
+
+#top-menu ul {
+    display: block;
+    list-style-type: none;
+    width: 360px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#top-menu ul li {
+    margin: 0;
+    padding: 0;
+}
+
+#top-menu ul li a {
+    display: block;
+    float: left;
+    max-height: 25px;
+    width: 100px;
+    margin: 0;
+    padding: 5px 0;
+    font-family: tahoma, sans-serif;
+    font-size: 20px;
+	color: blue;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(221, 17, 204);
+    
+}
+#top-menu ul li a:hover { border-bottom: rgb(173, 17, 221) solid 2px; }
+
+h2 {color: Pink;
+	   margin:auto;
+	   padding:5px;
+	   border-color:red;
+	   border-width:4px;
+	   border-style:dashed;
+	   font-size:50px;
+	   text-align:center; }
+h1{
+	color: rgb(255, 0, 242);
+	font-size:25;
+    font-family:italic;
+	text-align:center;}
+	   
+a{
+	   text-align:left;
+	   color:pink;}
+#marqueeHolder img{
+       border:5px solid pink;
+	   size: 300px;
+	   
+	   
+}
+#audio{
+	width:300px;
+	margin:auto;
+}
+
+#footer{
+	font-size:20px;
+	text-align:center;
+	font-family:italic;
+	color:rgb(255, 255, 255)}
